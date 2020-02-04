@@ -6,9 +6,9 @@ public class IsNumberWeirdChecker {
     public IsNumberWeirdChecker() {
     }
 
-    public IsNumberWeirdChecker(int num) {
+    /*public IsNumberWeirdChecker(int num) {
         this.num = num;
-    }
+    }*/
 
     public void setNum(int num) {
         this.num = num;
