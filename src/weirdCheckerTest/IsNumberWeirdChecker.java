@@ -1,24 +1,8 @@
-package pkg;
+package weirdCheckerTest;
 
 public class IsNumberWeirdChecker {
 
-    private int num;
-    public IsNumberWeirdChecker() {
-    }
-
-    /*public IsNumberWeirdChecker(int num) {
-        this.num = num;
-    }*/
-
-    public void setNum(int num) {
-        this.num = num;
-    }
-
-    public int getNum() {
-        return num;
-    }
-
-    public String isWeird() {
+    public static String getIsNumWeirdMessage(int num) {
         String result;
         if (num % 2 == 1) {
             result = "Weird";
@@ -30,7 +14,6 @@ public class IsNumberWeirdChecker {
                     result = "Weird";
                 }
                 else result = "Not Weird";
-        //System.out.println(num + " - " + result);
         return result;
     }
 }
